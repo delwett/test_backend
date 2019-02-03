@@ -6,5 +6,6 @@ module Types
     field :name, String, null: false
     field :birthdate, String, null: true
     field :country, String, null: true
+    field :books, [BookType], null: true
   end
 end
