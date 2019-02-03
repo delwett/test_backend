@@ -1,0 +1,25 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'config/**/*'
+    - 'test/*'
+    - 'db/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'config.ru'
+
+# Customize rules
+Metrics/LineLength:
+  Max: 160
+
+MethodLength:
+  Max: 35
+
+BlockLength:
+  Max: 70
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
